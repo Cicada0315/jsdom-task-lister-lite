@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
   });
 
-  tasks.addEventListener("click", function(evernt){
+  tasks.addEventListener("click", function(event){
     if (event.target.dataset.action==="delete") {
       event.target.parentElement.remove();
     }
